@@ -69,7 +69,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YUVKIPWA
+DocumentUniqueId=NRPRCKNR
 
 [Document3]
 DocumentPath=..\..\..\libs\sch\ICs\Power\LMR33620-Q1.SchLib
@@ -426,7 +426,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=WSSGCOPN
+DocumentUniqueId=INAHPTVF
 
 [Document24]
 DocumentPath=..\..\..\libs\sch\Connectors\HDR.SchLib
@@ -598,6 +598,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document34]
+DocumentPath=..\..\..\libs\sch\Modules\X3399-CORE.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ICAIUMPB
+
+[Document35]
+DocumentPath=..\..\..\libs\sch\ICs\Interfaces\PCA9306.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KEOIMFBW
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for PCB_Project\PCB-NonPlated.TXT
 DItemRevisionGUID=
@@ -659,7 +693,15 @@ DocumentPath=Project Outputs for PCB_Project\PCB.RUL
 DItemRevisionGUID=
 
 [SearchPath1]
-Path=..\..\..\libs\*.*
+Path=..\..\..\libs\pcb\*.*
+IncludeSubFolders=1
+
+[SearchPath2]
+Path=..\..\..\libs\pcb\Modules\*.*
+IncludeSubFolders=1
+
+[SearchPath3]
+Path=..\..\..\libs\pcb\Connectors\*.*
 IncludeSubFolders=1
 
 [Configuration1]
@@ -686,7 +728,7 @@ AddNetPorts=-1
 ShowComponentParameters=-1
 GlobalBookmarks=0
 ExportBOM=0
-TemplateFilename=
+TemplateFilename=Board Stack Report.XLT
 TemplateStoreRelative=-1
 PCB_PrintColor=1
 SCH_PrintColor=0
@@ -706,7 +748,7 @@ SCH_ExpandPorts=0
 SCH_ExpandSheetNumber=0
 SCH_ExpandDocumentNumber=0
 SCH_HasExpandLogicalToPhysicalSheets=-1
-SaveSettingsToOutJob=-1
+SaveSettingsToOutJob=0
 
 [Generic_EDE]
 OutputDir=Project Outputs for PCB_Project
